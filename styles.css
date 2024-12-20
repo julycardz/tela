@@ -5,7 +5,8 @@
 :root {
     --cor-principal: #FFB901;
     --cor-secundaria: #FFFFFF;
-    --cor-terceira:#957bbc;
+    --cor-terceira:#957bbc8c;
+    --cor--body:#62458db4;
     --cor-box:#dfc1ff;
     --cor-quarta: #7c63a5;
     --cor-texto: #000000;
@@ -25,6 +26,7 @@
     display: flex;
     height: 100vh;
     font-family: "Roboto" , sans-serif;
+    background-color: var(--cor--body);
     
   }
  
@@ -205,7 +207,7 @@
   }
   .form-section {
     padding: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
     padding: 10px;
   }
 }
