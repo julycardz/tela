@@ -162,7 +162,7 @@
 
   .info img {
     width: 100%;              /* Imagem ocupa toda a largura da tela */
-    height: auto;             /* Ajusta a altura proporcionalmente */
+    height: 300px;             /* Ajusta a altura proporcionalmente */
     
   }
 
@@ -186,24 +186,26 @@
 
   .input {
     font-size: 1rem;          /* Aumenta o tamanho da fonte dos inputs */
-    padding: 10px 15px;       /* Ajusta o padding dos inputs */
+   
   }
 
   .form button {
-    padding: 12px 18px;       /* Ajusta o padding do botão */
+  
     font-size: 1.1rem;        /* Aumenta o tamanho da fonte do botão */
   }
 
   .form-section p {
     font-size: 0.9rem;         /* Ajusta o tamanho da fonte no rodapé */
+  
   }
   .content{
     height: auto;
-    padding: 0 0 0;
+    padding: 0 0 30px;
  
   }
   .form-section {
-    margin-bottom: 100px;
-    padding: 8px;
+    padding: 100px;
+    margin-bottom: 200px;
+    padding: 10px;
   }
 }
